@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftopia - Gifts Shop</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎁 Giftopia</h1>
+        <p>Delivering Happiness to Your Doorstep</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gifts.html">Gifts</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Our Featured Gifts</h2>
+        
+        <!-- Live Search Bar -->
+        <div class="search-container">
+            <input type="text" id="search-input" placeholder="Search for gifts (e.g., Mug, Teddy)..." onkeyup="searchGifts()">
+        </div>
+
+        <div class="products-grid">
+            <div class="product-card">
+                <img src="./images/gift1.jpg.jpeg"alt="Flower bouquet">
+                <h3>Flower bouquet</h3>
+                <p>₹500</p>
+                <button class="btn" onclick="addToCart('Flower bouquet',500)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/gift2.jpg.jpeg" alt="Scented candle">
+                <h3>Scented candle</h3>
+                <p>₹399</p>
+                <button class="btn" onclick="addToCart('Scented candle', 399)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+                <img src="./images/gift3.jpg.jpeg" alt="Gift Hampers">
+                <h3>Gift Hampers</h3>
+                <p>₹699</p>
+                <button class="btn" onclick="addToCart('Gift Hampers', 699)">Add to Cart</button>
+            </div>
+            <div class="product-card">
+               <img src="./images/gift4.jpg.jpeg" alt="Customized Mug">
+               <h3>Customized Mug</h3>
+               <p>₹250</p> 
+               <button class="btn" onclick="addToCart('Customized Mug',250)">Add to Cart</button>
+            </div>
+            <div  class="product-card">
+                <img src="./images/gift5.jpg.jpeg" alt=" Cute Teddy beer">
+                <h3>Cute Teddy beer</h3>
+                <p>₹750</p>
+                <button class="btn" onclick="addToCart('Cute Teddy beer',750)">Add to Cart</button>
+            </div>
+        </div>
+            
+    </main>
+
+    <footer>
+        <p>&cop y; 2026 Giftopia Shop. Developed for College Project.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

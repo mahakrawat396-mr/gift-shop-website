@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftopia - Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎁 Giftopia</h1>
+        <p>Delivering Happiness to Your Doorstep</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gifts.html">Gifts</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <h2 class="section-title">Contact Us</h2>
+        <form class="contact-form" onsubmit="event.preventDefault(); alert('Your message has been sent successfully!');">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email ID" required>
+            <textarea rows="5" placeholder="Your Message / Gift Customization Details" required></textarea>
+            <button type="submit" class="btn">Send Message</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Giftopia Shop. Developed for College Project.</p>
+    </footer>
+</body>
+</html>

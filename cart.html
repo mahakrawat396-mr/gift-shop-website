@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giftopia - Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🎁 Giftopia</h1>
+        <p>Delivering Happiness to Your Doorstep</p>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="gifts.html">Gifts</a>
+            <a href="cart.html">Cart</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+
+    <main class="container">
+        <section class="cart-section">
+            <h2 class="section-title">Your Shopping Cart</h2>
+            <div id="cart-items">
+                </div>
+            <div style="margin-top: 20px; text-align: right; font-size: 1.2rem; font-weight: bold;">
+                Total Amount: ₹<span id="cart-total">0</span>
+            </div>
+            <div style="text-align: right;margin-top: 10px;">
+                <button onclick="clearWholeCart()" style="background-color: #ff4d4d; color: white; border: none; padding: 8px 15px; cursor: pointer; border-radius: 4px: font-weight:bold;">clear Cart</button>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Giftopia Shop. Developed for College Project.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
